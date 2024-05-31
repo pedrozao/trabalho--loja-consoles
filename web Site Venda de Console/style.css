@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+/*primeira parte*/
+.btn{
+    background-color: #03ad2de0;
+    border: 0;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px rgba(0, 0 , 0 , 0.2 );
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 2rem;
+    padding: 0.75em  1.25em;
+    transition: .3s;
+    margin-right: 50px;
+   
+    
+}
+.btn:hover{
+    cursor: pointer;
+    margin-left: .5rem;
+}
+.firt_one {
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+
+}
+.firt_one h1{
+    font-size:100px;
+    font-weight: 1000;
+}
+.firt_one h2{
+    margin-top: 25px;
+    font-size:70px;
+    font-weight: 1000;
+}
+.firt_one .box_img .img1{
+    width: 100%;
+}
+.box_img{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box_img h2{
+    font-size:100px;
+    font-weight: 1000;
+    color: white;
+}
+.box_img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_img2 img{
+    width: 500px;
+    height: auto;
+}
+/*primeira parte*/
+.firt_two{
+    margin-top: 50px;
+
+}
+.firt_two .box_img .img2{
+    width: 100%;
+}
+
+.firt_three{
+    margin-top: 50px;
+}
+
+.firt_three img{
+    width: 50%;
+    height: auto;
+}
+
+.box_img3{
+margin-top: 50px;
+}
+
+.firt_three .btn3{
+    margin-top: 40px;
+    background-color: #1735dfe0;
+    border: 0;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px rgba(0, 0 , 0 , 0.2 );
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 2rem;
+    padding: 0.75em  1.25em;
+    transition: .3s;
+    margin-right: 50px;
+   
+}
+.firt_three .btn3:hover{
+    cursor: pointer;
+    margin-left: .4rem;
+}
+
+/* parte final*/
+footer {
+    margin-top: 30px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+   
+}
+footer .contato{
+    margin-right: 20px;
+}
+footer .direitos-autorais {
+    margin-right: 20px;
+}
+
+.contato,
+.redes-sociais,
+.direitos-autorais {
+    display: inline-block;
+    vertical-align: top;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.redes-sociais ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.redes-sociais li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.redes-sociais img {
+    width: 20px;
+    height: 20px;
+}
+
+.direitos-autorais {
+    margin-top: 20px;
+}

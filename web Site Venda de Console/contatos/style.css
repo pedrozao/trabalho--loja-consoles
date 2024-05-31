@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",Arial, sans-serif;
+}
+
+body {
+    
+    background-color:black;
+}
+/*---------*/
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:50px ;
+    height: 80VH;
+}
+.container2 {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 400px;
+    
+}
+form{
+    text-align: center;
+    
+}
+form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.inputBox {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.inputBox input,
+.inputBox textarea {
+    width: 100%;
+    padding: 10px;
+    background: #f0f0f0;
+    border: none;
+    outline: none;
+    resize: none;
+    border-radius: 5px;
+}
+
+.inputBox span {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #666;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.inputBox input:focus + span,
+.inputBox input:valid + span,
+.inputBox textarea:focus + span,
+.inputBox textarea:valid + span {
+    top: -10px;
+    left: 10px;
+    color:  #02a360;
+    font-size: 12px;
+}
+
+.inputBox input[type="submit"] {
+    background: #017143 ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.inputBox input[type="submit"]:hover {
+    background: #04c214;
+}
+
+/*---------*/
+
+footer {
+    margin-top: 30px;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+   
+}
+footer .contato{
+    margin-right: 20px;
+}
+footer .direitos-autorais {
+    margin-right: 20px;
+}
+
+.contato,
+.redes-sociais,
+.direitos-autorais {
+    display: inline-block;
+    vertical-align: top;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.redes-sociais ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.redes-sociais li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.redes-sociais img {
+    width: 20px;
+    height: 20px;
+}
+
+.direitos-autorais {
+    margin-top: 20px;
+}
